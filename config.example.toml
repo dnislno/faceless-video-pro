@@ -1,0 +1,20 @@
+# Copy to config.toml and fill your keys. Never commit config.toml
+[pexels]
+api_key = "your_pexels_api_key_here"
+
+[llm]
+# Any OpenAI-compatible endpoint. Examples:
+# OpenAI:      https://api.openai.com/v1
+# DeepSeek:    https://api.deepseek.com/v1
+# Groq:        https://api.groq.com/openai/v1
+# Ollama local: http://localhost:11434/v1
+base_url = "https://api.openai.com/v1"
+api_key = ""
+model = "gpt-4o-mini"
+
+[video]
+width = 1080
+height = 1920
+fps = 30
+target_seconds = 16
+voice = "id-ID-GadisNeural"

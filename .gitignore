@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets - never commit real keys
+.env
+config.toml
+
+# Generated media - too large for git
+assets/*.mp4
+assets/*.mp3
+tmp/
+output/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

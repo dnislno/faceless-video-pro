@@ -1,0 +1,13 @@
+# Faceless Video Pro — llms.txt
+
+> Free local prompt-to-commercial pipeline. 1 prompt → 20s vertical MP4. Python + BYO Pexels key + optional BYO LLM + EdgeTTS + FFmpeg.
+
+- Repo: https://github.com/dnislno/faceless-video-pro
+- Setup: pip install -r requirements.txt; cp .env.example .env; fill PEXELS_API_KEY and optional LLM_API_KEY, LLM_BASE_URL, LLM_MODEL
+- Run: python generate_iklan.py --prompt "lipstik korea 50rb viral"
+- Input: product ad brief (any language, tuned for Bahasa Indonesia TikTok Shop)
+- Output: output/*.mp4, 1080x1920, <=20s, H.264+AAC, no burned captions by default
+- Stack: requests (Pexels API portrait), edge-tts (default id-ID-GadisNeural), ffmpeg (scale/crop/concat/mux)
+- Cost: $0 with free tiers + offline template; LLM optional (OpenAI, Gemini, DeepSeek, Qwen, Groq, Ollama at http://localhost:11434/v1)
+- License: MIT. Pexels footage under Pexels license.
+- Keywords: faceless video generator, AI commercial video maker, TikTok Shop video automation, Pexels API, EdgeTTS Indonesian, FFmpeg Python
